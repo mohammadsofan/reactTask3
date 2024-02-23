@@ -65,6 +65,9 @@ nav ul li a {
   background-color: #545be8;
   color: #fff;
 }
+.active {
+  color: #545be8;
+}
 
 /* Courses styles */
 .courses {
