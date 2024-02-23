@@ -1,19 +1,17 @@
-import styles from "./Navbar.modulee.css";
+import style from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <header className={styles.header}>
+    <header className={style.header}>
       <div className="container">
         <div className="row">
-          <div className={styles.logoContainer}>
-            {/*   <img src="assets/img/public/logo.svg" alt="Logo" />
-             */}
+          <div className={style.logoContainer}>
             <a href="#">mangcoding Store</a>
           </div>
           <nav>
             <ul>
               <li>
-                <a href="#" className={styles.active}>
+                <a href="#" className={style.active}>
                   Home
                 </a>
               </li>
@@ -31,11 +29,11 @@ function Navbar() {
               </li>
             </ul>
           </nav>
-          <div className={styles.authContainer}>
-            <a href="#" className={styles.login}>
+          <div className={style.authContainer}>
+            <a href="#" className={style.login}>
               Log in
             </a>
-            <a href="#" className="{styles.register}">
+            <a href="#" className={style.register}>
               Register
             </a>
           </div>
